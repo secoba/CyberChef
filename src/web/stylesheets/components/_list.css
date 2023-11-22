@@ -7,37 +7,37 @@
  */
 
 .op-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .category-title {
-    display: block;
-    padding: 10px;
-    background-color: var(--secondary-background-colour);
-    border-bottom: 1px solid var(--secondary-border-colour);
-    font-weight: var(--title-weight);
+  display: block;
+  padding: 4px 10px;
+  background-color: var(--secondary-background-colour);
+  border-bottom: 1px solid var(--secondary-border-colour);
+  font-weight: var(--title-weight);
 }
 
 .category-title[href='#catFavourites'] {
-    border-bottom-color: var(--primary-border-colour);
+  border-bottom-color: var(--primary-border-colour);
 }
 
 .category-title[aria-expanded=true] {
-    border-bottom-color: var(--primary-border-colour);
+  border-bottom-color: var(--primary-border-colour);
 }
 
 .category-title.collapsed {
-    border-bottom-color: var(--secondary-border-colour);
+  border-bottom-color: var(--secondary-border-colour);
 }
 
 .category-title:hover {
-    color: var(--op-list-operation-font-colour);
+  color: var(--op-list-operation-font-colour);
 }
 
 .category {
-    margin: 0 !important;
-    border-radius: 0 !important;
-    border: none;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  border: none;
 }
