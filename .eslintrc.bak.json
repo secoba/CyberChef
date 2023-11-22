@@ -56,7 +56,7 @@
         "key-spacing": ["warn", {
             "mode": "minimum"
         }],
-        "indent": ["error", 4, {
+        "indent": ["error", 2, {
             "ignoreComments": true,
             "ArrayExpression": "first",
             "SwitchCase": 1
