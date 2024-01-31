@@ -42,7 +42,7 @@ body {
 }
 
 .no-select {
-    user-select: none;
+    user-select: auto;
 }
 
 .inline-icon {
